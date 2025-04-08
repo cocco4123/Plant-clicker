@@ -1,0 +1,40 @@
+.papa{
+    cursor: url("toolLVL1.png"), auto;
+    background: none;
+    border-width: 0;
+    position: absolute;
+    bottom: 20px;
+    right: 35px;
+}
+.pasto {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 100px;
+    object-fit: cover;
+    z-index: -1;
+}
+body{
+    background-image: url(ChatGPT\ Image\ 7\ abr\ 2025\,\ 15_30_50.png);
+    background-size: cover;
+  background-position: center; 
+  margin: 0; 
+  height: 100vh; 
+}
+.upgrades{
+    font-family: "Pixelify Sans", sans-serif;
+}
+.currency{
+    display: flex;
+    flex-direction: row;
+    margin-right: 70px;
+    margin-top: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    padding-right: 50px;
+}
