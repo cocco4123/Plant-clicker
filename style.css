@@ -56,9 +56,7 @@ nav{
     border-width: 5px 5px 10px 5px;
     border-style: solid;
 }
-img{
-    padding-right: 50px;
-}
+
 .soga-izq{
     position: absolute;
     height: 140px;
@@ -148,4 +146,7 @@ img{
     position: absolute;
     right: 35%;
     bottom: 90px;
+}
+.upgrade span{
+    margin-left: 20px;
 }
