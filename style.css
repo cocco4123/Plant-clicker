@@ -1,5 +1,5 @@
 .papa{
-    cursor: url("toolLVL1.png"), auto;
+    cursor: url("assets lvl1/toolLVL1.png"), auto;
     background: none;
     border-width: 0;
     position: absolute;
@@ -16,25 +16,136 @@
     z-index: -1;
 }
 body{
-    background-image: url(ChatGPT\ Image\ 7\ abr\ 2025\,\ 15_30_50.png);
+    background-image: url(img/fondo.png);
     background-size: cover;
   background-position: center; 
   margin: 0; 
   height: 100vh; 
 }
 .upgrades{
-    font-family: "Pixelify Sans", sans-serif;
-}
-.currency{
+    font-family: "Press Start 2P", system-ui;
+    border-top: 20px;
+    border-style: solid;
+    background-color: #7C4F2B;
+    border-color: #4E2F17;
+    height: 710px;
+    width: 600px;
+    color: #F5E3C3;
     display: flex;
-    flex-direction: row;
-    margin-right: 70px;
-    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+
 }
+
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    background-color: #F5E3C3;
+    height: fit-content;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 40px;
+    margin-right: 15px;
+    border-color: #4E2F17;
+    border-radius: 10px;
+    border-width: 5px 5px 10px 5px;
+    border-style: solid;
 }
 img{
     padding-right: 50px;
+}
+.soga-izq{
+    position: absolute;
+    height: 140px;
+    width: 200px;
+    transform: rotate(90deg);
+}
+.soga-der{
+    position: absolute;
+    height: 140px;
+    width: 200px;
+    transform: rotate(90deg) scaleX(-1);
+    left: 200px;
+    margin-top: 0;
+    transform-origin: center;
+}
+.upgrade{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    background-color: #d98e4f;
+    border-color: #4E2F17;
+    border-style: outset;
+    border-width: 5px;
+    padding: 20px;
+    font-family: "Press Start 2P", system-ui;
+
+
+}
+.upgrade:hover{
+    padding: 40px;
+    background-color: #7a3d17;
+    border-color: aliceblue;
+    border-style: outset;
+    border-width: 10px;
+
+}
+
+
+.upgrade-tittle{
+    font-size: 64px;
+    font-weight: 200;
+}
+.count-leaf{
+    height: 254px;
+    width: 254px;
+}
+.todo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#count{
+    font-family: "Press Start 2P", system-ui;
+}
+.i-carro{
+    height: 40px;
+    width: 40px;
+    background-color: #E8C17D;
+    padding: 10px;
+    color: #A0C44A;
+    border-radius: 10px;
+    border-color: #4E2F17;
+    border-style: solid;
+    margin-left: 30px;
+    
+}
+.iconoNAV{
+    margin-left: 15px;
+}
+.counter{
+    background-color: #F0D9AA;
+    border-color: #7C4F2B;
+    font-size: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: fit-content;
+    color: #4E2F17;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 20px;
+    width: 600px;
+    margin-top: 40px;
+}
+#papa{
+    position: absolute;
+    right: 35%;
+    bottom: 90px;
 }

@@ -4,38 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Click</title>
+    <title>trimming clicker</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <div>
-            <a href="#">Cuenta</a>
-            <a href="#">rebirth</a>
+    <img src="img/soga upgrades.png" class="soga-izq">
+    <img src="img/soga upgrades.png" class="soga-der">
+    <div class="todo">
+        <div class="upgrades">
+            <h2 class="upgrade-tittle">upgrades</h2>
+            <ol>
+                <li class="upgrade">
+                autoclicker=$<span>0</span> <span>+1</span> 
+                </li>
+                <li class="upgrade">
+                    clicks=$<span>0</span> <span>+1</span>
+                </li>
+            </ol>
         </div>
-        <div class="currency">
-            <i class="fa-solid fa-leaf"></i>
-            <h2 id="count">0</h2>
+        <div class="counter">
+            <img src="img/Leaf.png" class="count-leaf">
+            <span id="count"> 0</span>
         </div>
-    </nav>
-    <button class="papa" id="papa" onclick="papa()"><img src="plantaLVL1.webp" alt=""></button>
-<div class="upgrades">
-    <OL>
-        <li>autoclicker
-                <button><i class="fa-solid fa-cart-shopping"></i></button>
-            </li>
-        <li>points on click
-            <button><i class="fa-solid fa-cart-shopping"></i></button>
-        </li>
-        <li><button></button></li>
-        <li><button></button></li>
-    </OL>
-</div>
+        <nav>
+            <div><i class="fa-solid fa-gear" style="color: #4e2f17;"></i></div>
+            <div class="iconoNAV"> <i class="fa-solid fa-user" style="color: #7c4f2b;"></i></div>
+            <div class="iconoNAV"> <i class="fa-solid fa-arrow-right" style="color: #d9a441;"></i></div>
+        </nav>
+    </div>
+    <button class="papa" id="papa" onclick="papa()"><img src="assets lvl1/plantaLVL1.webp" alt=""></button>
     <script src="papa.js"></script>
 </body>
 </html>
