@@ -1,10 +1,18 @@
 let countEL = document.getElementById("count")
 let papaEL = document.getElementById("papa")
 let count = 0
+let pointsonclick = 1
+let currentupdate = 0
+
+function upgradeclicks(){
+currentupdate + 
+ }
 
 function papa(){
-    count += 1
+    count += pointsonclick
     countEL.textContent = count
 }
+
+
 
 
